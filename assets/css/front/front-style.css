@@ -1,0 +1,1689 @@
+.no_margin_itmes.sticky {
+    position: fixed !important;
+    top: 34px;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.scheme_goldy_default .sticky {
+    background: transparent !important;
+}
+
+.language-change .wpml-ls-item-toggle {
+    border-radius: 8px;
+}
+
+.language-change li {
+    text-align: left;
+}
+
+.tab-form {
+    max-width: 1290px !important;
+    margin: 0 auto !important;
+}
+
+.scheme_goldy_default .elementor-widget-tabs .elementor-tab-title {
+
+    color: #191b26 !important;
+    border-color: #d8b372 !important;
+    background-color: #d8b372 !important;
+}
+
+.scheme_goldy_default .elementor-widget-tabs .elementor-tab-desktop-title.elementor-active {
+    color: #191b26 !important;
+    border-color: #f6e8d0 !important;
+    background-color: #fef8ef !important;
+}
+
+.scheme_goldy_default .elementor-widget-tabs .elementor-tab-desktop-title {
+    border-radius: 30px;
+    padding: 1.2em 2.2em;
+}
+
+.no_margin_itmes .elementor-column-gap-default {
+    justify-content: center;
+}
+
+.scheme_goldy_default .wpcf7-form-control-wrap {
+    text-align: center;
+}
+
+.our_services_cards .sc_services_default .sc_services_item_thumb[class*="hover_"] img {
+    height: 300px;
+}
+
+.our_services_cards .sc_services_default .sc_services_item_featured_top.with_image .sc_services_item_info {
+    padding: 16px;
+}
+
+.our_destination_section .sc_services_default .sc_services_item_thumb[class*="hover_"] img {
+    height: 300px;
+}
+
+.our_destination_section .sc_services_default .sc_services_item_featured_top.with_image .sc_services_item_info {
+    padding: 16px;
+}
+
+.view_destination .sc_services_default .sc_services_item_thumb[class*="hover_"] img {
+    height: 300px;
+}
+
+.view_destination .sc_services_default .sc_services_item_featured_top.with_image .sc_services_item_info {
+    padding: 16px;
+}
+
+.view-services .sc_services_default .sc_services_item_thumb[class*="hover_"] img {
+    height: 300px;
+}
+
+.view-services .sc_services_default .sc_services_item_featured_top.with_image .sc_services_item_info {
+    padding: 16px;
+}
+
+.d-none {
+    display: none;
+}
+
+.our_services_cards .icons {
+    display: none;
+}
+
+.our_destination_section .icons {
+    display: none;
+}
+
+.view_destination .icons {
+    display: none;
+}
+
+.view-services .icons {
+    display: none;
+}
+
+.booking_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transportation_ticket_modification_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-1_4 {
+    text-align: center;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .column-1_4 {
+        width: 50% !important;
+    }
+
+    .booking_form {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .transportation_ticket_modification_form {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+/* For smartphones */
+@media only screen and (max-width: 767px) {
+    .column-1_4 {
+        width: 100% !important;
+    }
+
+    .booking_form {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .transportation_ticket_modification_form {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+.booking_form input.submit-btn {
+    background-color: white !important;
+    color: #000 !important;
+}
+
+.transportation_ticket_modification_form input.submit-journey-modification-btn {
+    background-color: white !important;
+    color: #000 !important;
+}
+
+.booking_form input.submit-btn:hover {
+    background-color: black !important;
+    color: #fff !important;
+}
+
+.transportation_ticket_modification_form input.submit-journey-modification-btn:hover {
+    background-color: black !important;
+    color: #fff !important;
+}
+
+
+.booking-date input,
+.return-date input {
+    border-radius: 40px;
+    padding: 17px;
+}
+
+.tab-form .scheme_goldy_default .elementor-widget-tabs .elementor-tab-desktop-title {
+    border-radius: 30px;
+    padding: 5px 8px;
+}
+
+.tab-form .elementor-widget-tabs .elementor-tab-title:first-child {
+    margin-top: auto;
+}
+
+.tab-form select,
+.tab-form input[type="text"],
+.tab-form input[type="email"],
+.tab-form .submit-btn {
+    border-radius: 17px;
+}
+
+.tab-form .select_container:before {
+    color: #868480;
+    background: transparent !important;
+}
+
+.tab-form .select_container select {
+    opacity: 1 !important;
+    color: #9c9a95;
+    border-color: #e9dbc2 !important;
+    background: #ffffff !important;
+}
+
+.tab-form .select_container {
+    border-radius: 17px;
+}
+
+.no_margin_itmes .sc_layouts_menu_nav > li > a {
+    padding: 8px 16px;
+}
+
+.scheme_goldy_default .sc_layouts_menu_nav .logout_button a:hover,
+.scheme_goldy_default .sc_layouts_menu_nav > li.sfHover > a {
+    color: #000 !important;
+}
+
+
+.search-loader-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    inset: 0 0 0 0;
+}
+
+.section-loader {
+    position: relative;
+
+}
+
+.section-loader:before {
+    content: '';
+    position: absolute;
+    inset: 0 0 0 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 5;
+    border-radius: 30px;
+}
+
+.section-loader-swap {
+    position: relative;
+
+}
+
+.section-loader-swap:before {
+    content: '';
+    position: absolute;
+    inset: 0 0 0 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 5;
+    border-radius: 30px;
+}
+
+.search-loader {
+    z-index: 9;
+    position: relative;
+    left: -9999px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d8b372;
+    color: #d8b372;
+    box-shadow: 9999px 0 0 -5px;
+    animation: dot-pulse 1.5s infinite linear;
+    animation-delay: 0.25s;
+}
+
+.search-loader::before,
+.search-loader::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d8b372;
+    color: #d8b372;
+}
+
+.search-loader::before {
+    box-shadow: 9984px 0 0 -5px;
+    animation: dot-pulse-before 1.5s infinite linear;
+    animation-delay: 0s;
+}
+
+.search-loader::after {
+    box-shadow: 10014px 0 0 -5px;
+    animation: dot-pulse-after 1.5s infinite linear;
+    animation-delay: 0.5s;
+}
+
+@keyframes dot-pulse-before {
+    0% {
+        box-shadow: 9984px 0 0 -5px;
+    }
+
+    30% {
+        box-shadow: 9984px 0 0 2px;
+    }
+
+    60%,
+    100% {
+        box-shadow: 9984px 0 0 -5px;
+    }
+}
+
+@keyframes dot-pulse {
+    0% {
+        box-shadow: 9999px 0 0 -5px;
+    }
+
+    30% {
+        box-shadow: 9999px 0 0 2px;
+    }
+
+    60%,
+    100% {
+        box-shadow: 9999px 0 0 -5px;
+    }
+}
+
+@keyframes dot-pulse-after {
+    0% {
+        box-shadow: 10014px 0 0 -5px;
+    }
+
+    30% {
+        box-shadow: 10014px 0 0 2px;
+    }
+
+    60%,
+    100% {
+        box-shadow: 10014px 0 0 -5px;
+    }
+}
+
+.top-header-scroll .sc_layouts_menu_nav > li > a > span {
+    color: #fff !important;
+}
+
+.cart_button * {
+    color: #fff !important;
+}
+
+@media (max-width: 1279px) {
+
+    .no_margin_itmes.elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-default,
+    .body_style_boxed .elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-default {
+        max-width: 100% !important;
+    }
+
+    .top-header-scroll.elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-extended,
+    .body_style_boxed .elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-extended {
+        max-width: 100%;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .column-1_4.booking-date input,
+    .column-1_4.return-date input {
+        width: 180px;
+    }
+}
+
+.booking_form label.error {
+    position: absolute;
+    color: #e92929 !important;
+}
+
+.transportation_ticket_modification_form label.error {
+    position: absolute;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .column-1_4.booking-date input,
+    .column-1_4.return-date input {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .booking_form label.error {
+        position: unset;
+    }
+
+    .transportation_ticket_modification_form label.error {
+        position: unset;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .top-header-scroll .elementor-column-gap-default {
+        max-width: 1270px !important;
+        width: 100% !important;
+    }
+
+    .tab-form .elementor-tab-mobile-title {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .Contact_us_from input[type=file] {
+        font-size: 14px;
+    }
+
+    .tab-form .elementor-tabs-wrapper {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .widget_icl_lang_sel_widget > div > ul > li > a {
+        background: transparent;
+    }
+
+    .widget_icl_lang_sel_widget > div > ul > li > ul > li > a {
+        background: transparent;
+    }
+
+    .widget_icl_lang_sel_widget > div {
+        margin: 0 auto;
+    }
+
+    .menu_mobile .menu_mobile_nav_area > ul > .menu-item > a {
+        text-align: center;
+        padding-right: 0;
+    }
+}
+
+.log_button_link a {
+    text-wrap: nowrap;
+}
+
+.top-header-scroll li.logout_button a {
+    border: 1px solid #ddb837;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    max-width: 190px;
+    width: fit-content;
+}
+
+.top-header-scroll li.logout_button a:hover {
+    border: 1px solid #000000b0;
+    background-color: #000000b0;
+    color: #ddb837;
+}
+
+.header_widgets_wrap .top-bar-icon {
+    text-align: center;
+    padding-left: 35px;
+}
+
+.header_widgets_wrap .top-bar-icon i {
+    margin-right: 10px
+}
+
+.header_widgets_wrap .top-bar-icon > div {
+    padding: 5px 10px
+}
+
+.menu_mobile_inner .header_widgets_wrap .widget ul > li::before {
+    color: transparent !important;
+}
+
+/* reverse button */
+.tab-content .mtrap-swap-cities {
+    width: 100%;
+    max-width: fit-content !important;
+}
+
+@media (max-width: 1024px) {
+    .tab-content .mtrap-swap-cities {
+        rotate: 90deg;
+        position: absolute;
+        top: 39px;
+        right: 15px;
+        z-index: 999;
+        border: 1px solid #ddd;
+    }
+
+    .tab-content .mtrap-swap-cities img {
+        width: 30px;
+    }
+}
+
+.tab-form form.booking_form > div {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.tab-form form.transportation_ticket_modification_form > div {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.tab-form form.booking_form {
+    justify-content: center;
+    align-content: center;
+}
+
+.tab-form form.transportation_ticket_modification_form {
+    justify-content: center;
+    align-content: center;
+}
+
+.tab-form form.booking_form input[type="text"] {
+    width: 100%;
+}
+
+.tab-form form.transportation_ticket_modification_form input[type="text"] {
+    width: 100%;
+}
+
+.language-change a {
+    text-wrap: nowrap;
+}
+
+.language-change a > span {
+    font-size: 14px;
+}
+
+.logout_button a {
+    background: #d8b372;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #d8b372;
+}
+
+.logout_button a:hover {
+    background: #fff;
+}
+
+/* same height menu items*/
+
+.top-header-scroll .sc_layouts_item {
+    height: 100%;
+}
+
+.top-header-scroll .sc_layouts_item .elementor-widget-container {
+    height: 100%;
+}
+
+.top-header-scroll .sc_layouts_item .elementor-widget-container .elementor-icon-box-wrapper {
+    height: 100%;
+}
+
+/* same height menu items*/
+
+
+
+.tab-form form.booking_form .submit-btn {
+    width: 100%;
+}
+
+.tab-form form.transportation_ticket_modification_form .submit-btn {
+    width: 100%;
+}
+
+.tab-form form.booking_form .destination_from.fill_inited,
+.tab-form form.booking_form .destination_to.fill_inited {
+    min-width: 225px;
+}
+
+.tab-form form.transportation_ticket_modification_form .destination_from.fill_inited,
+.tab-form form.transportation_ticket_modification_form .destination_to.fill_inited {
+    min-width: 225px;
+}
+
+.menu_mobile_inner #block-5 {
+    z-index: 99;
+}
+
+.scheme_goldy_dark .sc_layouts_cart_widget {
+    background-color: #1d202c;
+    color: #ffffff;
+    z-index: 9999;
+    width: 90%;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu_mobile_inner .sc_layouts_cart_widget .sc_layouts_cart_widget_close {
+    font-size: 1.5em;
+    padding: 10px;
+    top: 0px;
+}
+
+.menu_mobile_inner .widget_shopping_cart_content {
+    text-align: center;
+}
+
+.tab-form .select_container select {
+    color: #000 !important;
+    border-color: #e9dbc2 !important;
+    background: #ffffff !important;
+}
+
+.tab-form .select_container input::placeholder {
+    color: #000 !important;
+
+}
+
+.tab-form .select_container select:disabled {
+    color: #dddddd !important;
+    border-color: #e9dbc2 !important;
+    background: #ffffff !important;
+}
+
+.top-header-scroll .sc_layouts_menu_nav > li > a {
+    padding: 8px 16px !important;
+}
+
+.menu_mobile_inner #icl_lang_sel_widget-3 {
+    padding-bottom: 20px;
+}
+
+.trx_addons_scroll_to_top.show {
+    bottom: 1em !important;
+}
+
+.Contact_us_from input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #D8B372;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+.Contact_us_from input[type=file] {
+
+    color: #444;
+    padding: 10px 25px;
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid #e9dbc2;
+}
+
+.Contact_us_from input[type=file]::file-selector-button:hover {
+    background: #d9a03b;
+}
+
+.woocommerce .u-column2 .mtrap-date-field .ui-datepicker-trigger {
+    position: absolute;
+    left: 90%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    filter: invert(53%) sepia(6%) saturate(217%) hue-rotate(2deg) brightness(97%) contrast(87%);
+    cursor: pointer;
+}
+
+#my-sticky-header .elementor-container {
+    justify-content: center;
+    width: auto;
+    max-width: 1320px;
+}
+
+.top_panel_custom_header-french .top-header-scroll .elementor-container {
+    width: 100%;
+    max-width: 1300px !important;
+}
+
+@media only screen and (min-width: 1330px) and (max-width: 1443px) {
+    .top-header-scroll .elementor-container {
+        width: 100%;
+        max-width: 1300px !important;
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1330px) {
+    .top-header-scroll .elementor-container {
+        max-width: calc(100% - 30px) !important;
+    }
+
+    .top_panel_custom_header-french .top-header-scroll .elementor-container {
+        max-width: calc(100% - 30px) !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1278px) {
+    #my-sticky-header .elementor-container {
+        top: -10px;
+    }
+
+    .top_panel_custom_header-french #my-sticky-header .elementor-container {
+        top: -10px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    #my-sticky-header .elementor-container {
+        max-width: calc(100% - 15px) !important;
+    }
+}
+
+.wpml-ls-legacy-dropdown {
+    width: 131px !important;
+    max-width: 100%;
+}
+
+.single-cpt_services .sc_form.sc_form_default {
+    display: none;
+}
+
+.single-cpt_services .content_wrap {
+    width: 100%;
+}
+
+.single-cpt_services .services_page_title {
+    text-align: center;
+}
+
+/* .single-cpt_services .services_page_content.entry-content {
+  width: 1270px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+} */
+
+.single-cpt_services .services_page_header {
+    display: none;
+}
+
+.single-services-banner .sc_layouts_title_caption,
+.single-services-banner .breadcrumbs {
+    color: #fff;
+}
+
+.single-services-banner .sc_layouts_title {
+    background-position: top center !important;
+    background-position-y: 43px !important;
+}
+
+.service-content-section h2 {
+    margin-top: 0.1122em;
+    margin-bottom: 0.4119em;
+}
+
+.Contact_us_from .column-1_1 {
+    text-align: center;
+}
+
+/* Bus search */
+
+.search-list-alert {
+    padding: 13px 10px;
+    margin: 20px 25px;
+    border: 1px solid #d8b372;
+    text-align: center;
+    color: #191b26;
+    background-color: #f1e5cf;
+    border-radius: 20px;
+}
+
+.bus-list-header {
+    padding: 3px 15px;
+    margin: 0px 25px 20px;
+    border: 1px solid #191B26;
+    text-align: center;
+    color: #d8b372;
+    background-color: #191B26;
+    border-radius: 20px;
+}
+
+.bus-list-header ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.route-Name .title {
+    font-family: kelson, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.7706em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: .2px;
+}
+
+.bus-list-main {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.bus-list-items .list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    width: 100%;
+    border: 1px solid #d8b372;
+    border-radius: 20px;
+    padding: 13px 15px;
+    margin: 0px 25px 20px;
+    color: #191b26;
+    background-color: #fff;
+}
+
+.bus-list-items {
+    padding: 13px 15px;
+    margin: 0px 25px 0px;
+    text-align: center;
+    color: #191b26;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    flex-direction: column;
+}
+
+.route-list,
+.coach-type,
+.amenities-details {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: #9c9a95;
+    display: flex;
+}
+
+.route-list-outer {
+    display: flex;
+    align-content: center;
+    align-items: baseline;
+    font-size: 17px;
+}
+
+.mtrap-additional-travel-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .mtrap-additional-travel-details {
+        flex-direction: column;
+    }
+}
+
+.route-list {
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+.amenities-details,
+.coach-type {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: #9c9a95;
+}
+
+.amenities-details span,
+.coach-type span {
+    color: #191b26;
+}
+
+.amenities-details span {
+    display: block !important;
+}
+
+.bus-list-header ul li.route-details,
+.bus-list-items .list-item .route-details {
+    width: 25%;
+    text-align: left;
+}
+
+.today-status-cancelled {
+    color: #191b26;
+    background: #f6d1d1;
+    border: 1px solid #f93e3e;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    padding: 12px 13px;
+    border-radius: 30px;
+    display: block;
+    width: fit-content;
+    min-width: 62px;
+}
+
+.today-status-on-time {
+    color: #191b26;
+    background: #c5f7e8;
+    border: 1px solid #469E48;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    padding: 12px 13px;
+    border-radius: 30px;
+    display: block;
+    width: fit-content;
+    min-width: 62px;
+}
+
+.today-status-delayed {
+    color: #191b26;
+    background: #ffe599;
+    border: 1px solid #fbbc02;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    padding: 12px 13px;
+    border-radius: 30px;
+    display: block;
+    width: fit-content;
+    min-width: 62px;
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .bus-list-header ul li.route-details,
+    .bus-list-items .list-item .route-details {
+        width: 15%;
+        text-align: left;
+    }
+}
+
+.bus-list-header ul li.Departure,
+.bus-list-items .list-item .Departure {
+    width: 8%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.bus-list-header ul li.Duration,
+.bus-list-items .list-item .Duration {
+    width: 8%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.bus-list-header ul li.Arrival,
+.bus-list-items .list-item .Arrival {
+    width: 15%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.bus-list-header ul li.Fare,
+.bus-list-items .list-item .Fare {
+    width: 8%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.bus-list-header ul li.Vacant,
+.bus-list-items .list-item .Vacant {
+    width: 8%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.bus-list-header ul li.bus-status,
+.bus-list-items .list-item .bus-status {
+    width: 10%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.bus-list-header ul li.Select_btn,
+.bus-list-items .list-item .Select_btn {
+    width: 8%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.Select_btn .trx_popup_button.sc_button {
+    padding: 12px 24px;
+}
+
+.coach-type span {
+    display: block !important;
+}
+
+.route-details .title {
+    font-size: 1.471em;
+    line-height: 1.3em;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.bus-list-items .list-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bus-list-items .list-item > div {
+    flex: 1 auto;
+    padding: 10px;
+}
+
+.bus-list-items .list-item .mtrap-additional-travel-details {
+    flex-basis: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .bus-list-items .list-item > div:not(:first-child) span {
+        display: none;
+    }
+
+    .amenities-details {
+        max-width: 100%;
+        line-height: normal;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .Select_btn .trx_popup_button.sc_button {
+        padding: 0.65em 0.65em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .bus-list-header ul > li {
+        font-weight: 500 !important;
+        font-size: 15px;
+    }
+
+    .bus-list-items .list-item .Departure,
+    .bus-list-items .list-item .Duration,
+    .bus-list-items .list-item .Arrival,
+    .bus-list-items .list-item .Fare,
+    .bus-list-items .list-item .Vacant {
+        font-size: 15px;
+    }
+
+    .bus-list-items .list-item > div {
+        flex: 1 auto;
+        padding: 10px 6px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .mtrap-additional-travel-details {
+        flex-flow: column wrap;
+    }
+
+    .bus-list-items .list-item > div:not(:first-child) span {
+        max-width: 140px;
+    }
+
+    .amenities-details {
+        max-width: 100%;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .bus-list-header {
+        display: none;
+    }
+
+    .bus-list-items .list-item > div:not(:first-child) span {
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        color: #191b26;
+        min-width: 140px;
+        display: inline-block;
+        max-width: 140px;
+    }
+
+    .amenities-details {
+        display: flex;
+        align-items: flex-start;
+        width: 100% !important;
+    }
+
+    .amenities-details span,
+    .coach-type span {
+        min-width: 128px;
+        display: inline-block;
+    }
+
+    .bus-list-items .list-item > div:not(:first-child) {
+        color: #9c9a95;
+        font-weight: 400;
+    }
+
+    .amenities-details,
+    .coach-type {
+        font-weight: 400;
+    }
+
+    .bus-list-items .list-item {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .bus-list-items .list-item .route-details {
+        width: 100%;
+        text-align: left;
+    }
+
+    .bus-list-items .list-item .Departure {
+        /* width: 50%; */
+        text-align: left;
+        font-weight: 500;
+    }
+
+    .bus-list-items .list-item .Duration {
+        /* width: 50%; */
+        text-align: left;
+        font-weight: 500;
+    }
+
+    .bus-list-items .list-item .Arrival {
+        width: 50%;
+        text-align: left;
+        font-weight: 500;
+    }
+
+    .bus-list-items .list-item .Fare {
+        /* width: 50%; */
+        text-align: left;
+        font-weight: 500;
+    }
+
+    .bus-list-items .list-item .Vacant {
+        width: 100%;
+        text-align: left;
+        font-weight: 500;
+    }
+
+    .bus-list-items .list-item .Select_btn,
+    .bus-list-items .list-item .Select_btn a {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .select_btn.select_bus_btn {
+        float: left;
+        order: 8;
+        width: auto;
+        max-width: 48.3333%;
+    }
+
+    .mtrap-current-bus-status {
+        width: auto;
+        max-width: 48.3333%;
+        order: 9;
+    }
+
+		.mtrap-current-bus-status .today-status-delayed,
+    .mtrap-current-bus-status .today-status-cancelled,
+    .mtrap-current-bus-status .today-status-on-time {
+        margin: 0 0 0 auto;
+        min-width: 92px;
+    }
+
+    .bus-list-items .list-item .Departure,
+    .bus-list-items .list-item .Duration,
+    .bus-list-items .list-item .Arrival,
+    .bus-list-items .list-item .Fare,
+    .bus-list-items .list-item .Vacant {
+        width: calc(45.33333%) !important;
+        float: left;
+    }
+}
+
+
+
+/* Search bus - seat selection */
+.book_now_fx {
+    margin: 0 25px 20px;
+    display: flex;
+    gap: 25px;
+    padding: 13px 15px;
+    width: 100%;
+}
+
+.book_tckt_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.info_table {
+    width: 50%;
+    justify-content: center;
+}
+
+.info_table table {
+    margin: 0 auto;
+}
+
+.info_table table,
+.info_table tr,
+.info_table td,
+.info_table th {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    padding: 5px 12px !important;
+
+}
+
+.book_form_fx select,
+.book_form_fx input {
+    width: 100%;
+    padding: 5px 10px !important;
+    border-radius: 5px !important;
+    border: 1px solid #d8b372 !important;
+}
+
+.book_form_fx select::placeholder,
+.book_form_fx input::placeholder {
+    color: #000 !important;
+}
+
+.column-half {
+    width: 50%;
+}
+
+.passenger_details {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.passenger_details .book_form_fx {
+    margin-bottom: 8px;
+}
+
+.buttn_continue {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttn_continue input {
+    width: 50%;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+
+.age_inputbox {
+    max-width: 85px;
+}
+
+.woocommerce-checkout .woocommerce {
+    padding-top: 80px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .tab-form form.booking_form {
+        position: relative;
+    }
+
+    .passenger_details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .select_btn.select_bus_btn {
+        order: 9;
+    }
+
+    .book_tckt_form,
+    .info_table {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .book_now_fx {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .tab-content .mtrap-swap-cities {
+        rotate: 90deg;
+        position: absolute;
+        top: 39px;
+        right: 15px;
+        z-index: 999;
+        border: 1px solid #ddd;
+    }
+
+    .passenger_details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .age_inputbox {
+        max-width: 100%;
+    }
+
+    .book_tckt_form {
+        width: 80%;
+    }
+
+    .info_table {
+        width: 80%;
+    }
+
+    .info_table table {
+        width: 100%;
+    }
+
+    .buttn_continue input {
+        width: 100%;
+    }
+
+
+}
+
+.book_form_fx .select_container select {
+    padding-right: 2em !important;
+}
+
+@media only screen and (max-width: 1280px) {
+
+    .age_inputbox {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .tab-form .elementor-tabs-wrapper > div {
+        padding: 10px !important;
+        ;
+    }
+
+    .tab-content .mtrap-swap-cities {
+        rotate: 90deg;
+        position: absolute;
+        top: 32px !important;
+        right: 15px;
+        z-index: 999;
+        border: 1px solid #ddd;
+    }
+}
+
+.book_form_fx .select_container:after {
+    right: 1em;
+}
+
+.book_form_fx .select_container:before {
+    width: 1em;
+}
+
+/* 
+.book_form_fx.mtrap_fullname {
+  min-width: 370px;
+  width: 100%;
+} */
+
+@media (max-width: 479px) {
+
+    .elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-extended,
+    .body_style_boxed .elementor-section.elementor-section-boxed > .elementor-container.elementor-column-gap-extended {
+        max-width: calc(100% - 25px) !important;
+    }
+
+    .amenities-details {
+        width: 100%;
+    }
+}
+
+.route-list-outer span {
+    display: block !important;
+}
+
+.amenities-details span {
+    min-width: 95px;
+    width: 100%;
+    max-width: 200px;
+    text-wrap: nowrap;
+}
+
+.select_btn.select_bus_btn a {
+    padding: 12px 25px;
+}
+
+.amenities-details {
+    width: 100%;
+    max-width: 41%;
+    line-height: normal;
+}
+
+
+.mtrap_fullname,
+.mtrap_email,
+.mtrap_phone {
+    width: 49%;
+}
+
+.gender-dropdown,
+.adult-child {
+    width: 24%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .mtrap_fullname,
+    .mtrap_email,
+    .mtrap_phone {
+        width: 100%;
+    }
+
+    .gender-dropdown,
+    .adult-child {
+        width: 100%;
+    }
+
+    .amenities-details {
+        max-width: 100%;
+        line-height: normal;
+    }
+
+    .book_form_fx.mtrap_fullname {
+        min-width: unset;
+        width: 100%;
+    }
+
+    ul.woocommerce-order-overview.woocommerce-thankyou-order-details.order_details :is(li, strong) {
+        display: inline;
+    }
+
+    ul.woocommerce-order-overview.woocommerce-thankyou-order-details.order_details {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.woocommerce ul.cart_list li img,
+.woocommerce-page ul.cart_list li img,
+.woocommerce ul.product_list_widget li img,
+.woocommerce-page ul.product_list_widget li img {
+    width: 3.5em !important;
+}
+
+@media (max-width: 767px) {
+    .woocommerce.widget_shopping_cart ul.cart_list li {
+        padding: 0 1.5em 2.6em 4.8em !important;
+    }
+
+    .widget_shopping_cart_content {
+        width: 85%;
+    }
+
+    .our_services_cards .sc_services_default .sc_services_item_thumb[class*="hover_"] img {
+        height: auto;
+        object-fit: contain;
+        min-height: 250px;
+    }
+}
+
+.post_item_404 .post_content {
+    padding: 12em 0 5em !important;
+}
+
+@media (max-width: 767px) {
+
+    body.page .content_wrap,
+    body.page .content_container {
+        width: calc(100% - 80px) !important;
+    }
+
+    .bus-list-main {
+        margin-bottom: 0px;
+    }
+}
+
+/*  checkout form css  */
+/* Default styles for larger screens */
+.mtrap-form-checkout-wc .woocommerce-billing-fields__field-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mtrap-form-checkout-wc .form-row {
+    width: 47%;
+    box-sizing: border-box;
+}
+
+.mtrap-form-checkout-wc .col2-set .col-2 {
+    display: none;
+}
+
+.mtrap-form-checkout-wc .col2-set .col-1 {
+    width: 100% !important;
+}
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+    .mtrap-form-checkout-wc .form-row {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    ul.woocommerce-order-overview.woocommerce-thankyou-order-details.order_details :is(li, strong) {
+        display: inline;
+    }
+
+    ul.woocommerce-order-overview.woocommerce-thankyou-order-details.order_details {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.wc-block-components-notice-banner.is-info .wc-block-components-notice-banner__content a {
+    color: #d8b372;
+}
+
+.return-to-shop {
+    text-align: center;
+}
+
+.mtrap-form-checkout-wc .checkout_coupon.woocommerce-form-coupon {
+    width: 95% !important;
+}
+
+.mtrap-form-checkout-wc .form-row.place-order {
+    width: 100%;
+    text-align: center;
+}
+
+.mtrap-form-checkout-wc.form-row.place-order .woocommerce #payment #place_order,
+.woocommerce-page #payment #place_order {
+    float: unset !important;
+}
+
+.mtrap-form-checkout-wc.checkout_coupon.woocommerce-form-coupon input {
+    border-radius: 17px;
+}
+
+.mtrap-form-checkout-wc .woocommerce form .form-row .input-text,
+.mtrap-form-checkout-wc .woocommerce-page form .form-row .input-text,
+.mtrap-form-checkout-wc .woocommerce form .form-row .select2-selection--single {
+    border-radius: 17px;
+}
+
+.actions .coupon {
+    width: 100%;
+}
+
+.actions .coupon input {
+    width: 47% !important;
+}
+
+@media (max-width: 480px) {
+    .actions .coupon input {
+        width: 100% !important;
+    }
+}
+
+tr.woocommerce-table__line-item.order_item li strong {
+    font-weight: 400;
+}
+
+.passenger_details .gender-dropdown,
+.passenger_details .adult-child {
+    min-width: 95px;
+}
+
+.booking_form label {
+    position: absolute;
+}
+
+.transportation_ticket_modification_form label {
+    position: absolute;
+}
+
+.info_table table tr > td > span {
+    text-wrap: nowrap;
+}
+
+.woocommerce-table--order-details.woocommerce .order_details li,
+.woocommerce-page .order_details li {
+    line-height: 1.6em !important;
+}
+
+.woocommerce td.product-name dl.variation dd,
+.woocommerce td.product-name dl.variation dt {
+    line-height: 1.6em !important;
+}
+
+.mtrap-swap-cities {
+    margin-left: auto;
+    background: white;
+    border-radius: 50%;
+}
+
+section.woocommerce-order-details h2,
+.woocommerce-customer-details h2 {
+    font-size: 20px;
+}
+
+/* Order modification */
+.order-modification-wrap {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.order-modification-wrap .book_now_fx {
+    display: block;
+}
+
+.order-modification-wrap .book_now_fx .adult-child {
+    background-color: #EBEBE4 !important;
+    color: #C6C6C6;
+}
+
+.order-modification-wrap .book_now_fx .adult-child label {
+    padding-left: 10px;
+}
+
+.order-modification-wrap .book_now_fx .adult-child input {
+    background-color: #e7e7e7 !important;
+}
+
+.order-modification-wrap .passenger_outer_div {
+    margin-top: 40px;
+}
+
+.order-modification-wrap .passenger_outer_div label.mtrap_sc_passenger.filled.fill_inited {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.form-modification .mtrap-ticket-modification-outer .booking_number {
+    padding: 22px 10px;
+    min-width: 150px;
+}
+
+.form-modification .mtrap-ticket-modification-outer select {
+    padding: 22px 10px 22px 22px;
+}
+
+.form-modification .mtrap-ticket-modification-outer input {
+    padding: 22px 10px 22px 22px;
+}
+
+.form-modification .mtrap-ticket-modification-outer .submit-btn {
+    padding: 22px;
+}
+
+.bus-list-items .vacant-seats-count {
+    display: inline;
+}

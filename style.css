@@ -1,0 +1,192 @@
+@charset "utf-8";
+/*
+ Theme Name:   Winger Child
+ Theme URI:    http://winger.ancorathemes.com/
+ Description:  Winger Child Theme
+ Author:       AncoraThemes
+ Author URI:   http://ancorathemes.com/
+ Template:     winger
+ Version:      1.0.0
+ Tags:         inheritable theme options
+ Text Domain:  winger
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.ui-datepicker-title select:not(.esg-sorting-select):not([class*=trx_addons_attrib_]) {
+    visibility: visible;
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    width: 50%;
+}
+.ui-datepicker-title select {padding: 2px 16px;}
+
+.mtrap_country_phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mtrap_country_phone #mtrap_user_phone_number {
+    width: 100%;
+}
+
+.mtrap-date-field {
+    position: relative;
+}
+
+.mtrap-date-field .ui-datepicker-trigger {
+    position: absolute;
+    right: 20px;
+    top: 51px;
+    filter: invert(53%) sepia(6%) saturate(217%) hue-rotate(2deg) brightness(97%) contrast(87%);
+    cursor: pointer;
+}
+
+.mtrap-date-field .ui-datepicker-trigger {
+    position: absolute;
+    right: 20px;
+    bottom: 24px;
+    filter: invert(53%) sepia(6%) saturate(217%) hue-rotate(2deg) brightness(97%) contrast(87%);
+    cursor: pointer;
+    transform: translate(0px, 10px);
+}
+
+.cart_item dl.variation dd {
+    color: #191b26;
+}
+
+.woocommerce-mini-cart-item .quantity{
+	display: none !important;
+}
+
+.woocommerce-checkout .is-error{
+	color: #fe1525 !important
+}
+
+.woocommerce-cart .coupon{
+	display: none !important;
+}
+
+.woocommerce-order-received li.passenger_details {
+    display:unset;
+}
+
+.woocommerce-cart .product-remove a {
+	-webkit-appearance: none;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 15px;
+	line-height: 23px;
+	font-weight: 500;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	white-space: nowrap;
+	text-transform: none;
+	padding: 1.5em 2.8em;
+	letter-spacing: 0.4px;
+	height: auto;
+	border-width: 0 !important;
+	border-radius: 40px;
+	max-width: 100%;
+	color: #191b26;
+    background-color: #d8b372;
+}
+
+.woocommerce-cart .product-remove a:hover {
+	color: #d8b372;
+    background-color: #191b26;
+}
+
+.woocommerce-order-details .trip-notice{
+    margin-bottom:20px;
+}
+
+.woocommerce-order-details .woocommerce-order-details__title{
+    margin-bottom:10px;
+}
+
+.woocommerce-customer-details .woocommerce-column__title{
+    margin-bottom:10px;
+}
+
+/* cancellation flow */
+.transportation_ticket_cancellation_form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.transportation_ticket_cancellation_form > .column-bus-search:nth-child(1) input[type="text"] {
+    width: 170px;
+}
+
+.transportation_ticket_cancellation_form > .column-bus-search:nth-child(2) .select_container,
+.transportation_ticket_cancellation_form > .column-bus-search:nth-child(3) .select_container {
+    width: 200px;
+}
+
+.transportation_ticket_cancellation_form > .column-bus-search:nth-child(4) input {
+    width: 180px;
+}
+
+.transportation_ticket_cancellation_form .submit-btn {
+    background-color: white !important;
+    color: #000 !important;
+    width: 100%;
+}
+
+.transportation_ticket_cancellation_form .submit-btn:hover {
+    background-color: black !important;
+    color: #fff !important;
+}
+
+.transportation_ticket_cancellation_form > .column-bus-search:nth-child(5) input {
+    width: 180px;
+}
+
+.order-cancellation-wrap .passenger_outer_div {
+    margin-top: 40px;
+}
+
+.order-cancellation-wrap .passenger_outer_div label.mtrap_sc_passenger.filled.fill_inited {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .transportation_ticket_cancellation_form > .column-bus-search {
+        width: 50% !important;
+    }
+
+    .transportation_ticket_cancellation_form > .column-bus-search > * {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .transportation_ticket_cancellation_form {
+        flex-wrap: wrap;
+    }
+
+    .transportation_ticket_cancellation_form > .column-bus-search,
+    .transportation_ticket_cancellation_form > .column-bus-search > *,
+    .transportation_ticket_cancellation_form .column-cancellation-ticket { 
+        width: 100% !important;
+    }
+}
+
+.menu_mobile_inner .widget_nav_menu {
+    margin-top: 30px;
+}
+
+.woocommerce-orders-table__cell-order-actions{
+    max-width:250px;
+}
+.woocommerce-orders-table__cell-order-actions .modify-1, .modify-2, .cancel-1, .cancel-2{
+    width: 100%;
+}
